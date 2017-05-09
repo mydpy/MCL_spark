@@ -51,6 +51,10 @@ object Main {
       case e: Exception => throw new Exception("\n" + key.toString() + " must be an integer")
     }
   }
+  
+  def myFunction(){
+    println("Hello")
+  }
 
   def toDouble(key: Symbol, s: String): Double = {
     try {
