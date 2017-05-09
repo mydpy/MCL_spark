@@ -53,7 +53,7 @@ object Main {
   }
   
   def myFunction(){
-    println("Hello")
+    println("My new addition here")
   }
 
   def toDouble(key: Symbol, s: String): Double = {
@@ -165,3 +165,4 @@ object Main {
     }
   }
 }
+
